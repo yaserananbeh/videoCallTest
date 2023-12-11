@@ -17,6 +17,8 @@ export default function CustomMeetingProvider() {
         // participantId: "teacher",
       }}
       token={videoToken}
+      joinWithoutUserInteraction
+      reinitialiseMeetingOnConfigChange={false}
     >
       <CallContainer />
     </MeetingProvider>
