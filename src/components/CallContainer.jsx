@@ -11,9 +11,7 @@ export default function CallContainer() {
       console.log(participant, "left");
     },
   });
-  // useEffect(() => {
-  //   join();
-  // }, []);
+  
   return (
     <div style={{ backgroundColor: "gray", color: "white" }}>
       <VideoViewContainer />
